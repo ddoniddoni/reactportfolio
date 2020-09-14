@@ -27,6 +27,17 @@
   position: fixed;
   right: 20px;
   width: 30px;
-  object-fit: contain;
   color: white;
+  cursor: pointer;
+}
+
+.nav__mail:hover {
+  color: lightgray;
+}
+
+.nav > p {
+  position: fixed;
+  color: white;
+  right: 20px;
+  top: 45px;
 }

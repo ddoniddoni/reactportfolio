@@ -14,6 +14,7 @@ const Nav = () => {
       window.removeEventListener("scroll");
     };
   }, []);
+
   return (
     <div className={`nav ${show && "nav__black"}`}>
       <img
@@ -21,7 +22,8 @@ const Nav = () => {
         src="https://avatars2.githubusercontent.com/u/33341413?s=460&u=7f26c34ba6d2bc1b40c2fa5c6193411fe1723874&v=4"
         alt="Profie"
       />
-      <LocalPostOffice className="nav__mail" />
+      <LocalPostOffice className="nav__mail" variant="outlined" />
+      <p>psdkei@naver.com</p>
     </div>
   );
 };
