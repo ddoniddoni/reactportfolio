@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Banner from "./Banner";
+import Contents from "./Contents";
 import Nav from "./Nav";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="app">
       <Nav />
       <Banner />
+      <Contents />
     </div>
   );
 }
