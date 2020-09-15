@@ -1,0 +1,21 @@
+.content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.content__image {
+  width: 35vh;
+  height: 200px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.content__title {
+  color: white;
+  padding: 5px;
+  border-top: 2px solid white;
+}
