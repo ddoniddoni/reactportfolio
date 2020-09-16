@@ -1,6 +1,10 @@
 .contents {
+  width: 100%;
+}
+
+.contents__item {
   display: flex;
-  align-items: center;
-  height: 40vh;
-  background-color: red;
+  justify-content: space-between;
+  width: 100vh;
+  margin: 50px auto;
 }
