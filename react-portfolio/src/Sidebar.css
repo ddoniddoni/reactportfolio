@@ -3,3 +3,44 @@
   flex-direction: column;
   flex: 0.35;
 }
+
+.sidebar__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-right: 1px solid lightgray;
+}
+
+.sidebar__headerRight {
+  display: flex;
+  align-items: center;
+  min-width: 10vw;
+}
+
+.sidebar__menu {
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f7;
+  height: 39px;
+  padding: 10px;
+}
+
+.sidebar__menuContainer {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.sidebar__menuContainer > h3 {
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.sidebar__menus {
+  flex: 1;
+  background-color: white;
+  overflow: scroll;
+}

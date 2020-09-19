@@ -2,6 +2,7 @@ import React from "react";
 import "./Sidebar.css";
 import { Avatar, IconButton } from "@material-ui/core";
 import Mail from "@material-ui/icons/Mail";
+import SidebarMenu from "./SidebarMenu";
 
 const Sidebar = () => {
   return (
@@ -20,7 +21,15 @@ const Sidebar = () => {
           <h3>Portfolio Menu</h3>
         </div>
       </div>
-      <div className="sidebar__menus"></div>
+      <div className="sidebar__menus">
+        <SidebarMenu
+          title="Netflex-Clone"
+          description="Use React and Firebase"
+        />
+        <SidebarMenu title="Tinder-Clone" description="TinderClone" />
+        <SidebarMenu title="Airbnb-Clone" description="AirbnbClone" />
+        <SidebarMenu title="Kakao-Clone" description="KaKaoClone" />
+      </div>
     </div>
   );
 };

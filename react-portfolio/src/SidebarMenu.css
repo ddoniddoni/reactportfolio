@@ -1,0 +1,23 @@
+.sidebarMenu {
+  display: flex;
+  padding: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #f6f6f6;
+}
+
+.sidebarMenu:hover {
+  background-color: #ebebeb;
+}
+
+.sidebarMenu__info > h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.sidebarMenu__info > p {
+  font-size: 12px;
+}
+
+.sidebarMenu__info {
+  margin-left: 15px;
+}
