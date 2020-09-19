@@ -1,15 +1,15 @@
 import React from "react";
 import "./App.css";
-import Banner from "./Banner";
-import Contents from "./Contents";
-import Nav from "./Nav";
+import Screen from "./Screen";
+import Sidebar from "./Sidebar";
 
 function App() {
   return (
     <div className="app">
-      <Nav />
-      <Banner />
-      <Contents />
+      <div className="app__body">
+        <Sidebar />
+        <Screen />
+      </div>
     </div>
   );
 }
