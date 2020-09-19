@@ -26,7 +26,10 @@ const Sidebar = () => {
           title="Netflex-Clone"
           description="Use React and Firebase"
         />
-        <SidebarMenu title="Tinder-Clone" description="TinderClone" />
+        <SidebarMenu
+          title="Tinder-Clone"
+          description="TinderClone"
+        ></SidebarMenu>
         <SidebarMenu title="Airbnb-Clone" description="AirbnbClone" />
         <SidebarMenu title="Kakao-Clone" description="KaKaoClone" />
       </div>

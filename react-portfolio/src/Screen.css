@@ -24,3 +24,11 @@
 .screen__headerInfo > p {
   color: gray;
 }
+
+.screen__body {
+  overflow: scroll;
+  flex: 1;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

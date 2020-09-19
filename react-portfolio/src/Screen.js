@@ -2,6 +2,7 @@ import React from "react";
 import "./Screen.css";
 import MoreVert from "@material-ui/icons/MoreVert";
 import { IconButton } from "@material-ui/core";
+import ScreenView from "./ScreenView";
 
 const Screen = () => {
   return (
@@ -19,7 +20,12 @@ const Screen = () => {
         </div>
       </div>
 
-      <div className="screen__body"></div>
+      <div className="screen__body">
+        <ScreenView
+          src="https://pmcvariety.files.wordpress.com/2020/05/netflix-logo.png?w=1024"
+          alr="profile"
+        />
+      </div>
     </div>
   );
 };
