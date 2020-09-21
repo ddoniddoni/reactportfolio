@@ -16,11 +16,13 @@ const Sidebar = () => {
           </IconButton>
         </div>
       </div>
+
       <div className="sidebar__menu">
         <div className="sidebar__menuContainer">
           <h3>Portfolio Menu</h3>
         </div>
       </div>
+
       <div className="sidebar__menus">
         <SidebarMenu
           title="Netflex-Clone"
