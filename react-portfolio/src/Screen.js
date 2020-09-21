@@ -5,6 +5,7 @@ import { IconButton } from "@material-ui/core";
 import ScreenView from "./ScreenView";
 
 const Screen = () => {
+
   return (
     <div className="screen">
       <div className="screen__header">

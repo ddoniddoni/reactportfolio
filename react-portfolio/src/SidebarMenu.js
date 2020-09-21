@@ -2,6 +2,7 @@ import React from "react";
 import "./SidebarMenu.css";
 
 const SidebarMenu = ({ title, description }) => {
+
   return (
     <div className="sidebarMenu">
       <div className="sidebarMenu__info">

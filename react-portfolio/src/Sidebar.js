@@ -5,6 +5,26 @@ import Mail from "@material-ui/icons/Mail";
 import SidebarMenu from "./SidebarMenu";
 
 const Sidebar = () => {
+
+  const menu={
+    netflex:{
+      title:"Netflex-Clone",
+      description:"Use React and Firebase"
+    },
+    Tinder:{
+      title:"Tinder-Clone",
+      description:"TinderClone"
+    },
+    Airbnb:{
+      title:"Airbnb-Clone",
+      description:"Airbnb"
+    },
+    Kakao:{
+      title:"Kakao-Clone",
+      description:"Kakao"
+    }
+  }
+
   return (
     <div className="sidebar">
       <div className="sidebar__header">
@@ -25,8 +45,9 @@ const Sidebar = () => {
 
       <div className="sidebar__menus">
         <SidebarMenu
-          title="Netflex-Clone"
+          title={menu.netflex.title}
           description="Use React and Firebase"
+          
         />
         <SidebarMenu
           title="Tinder-Clone"
@@ -34,6 +55,7 @@ const Sidebar = () => {
         ></SidebarMenu>
         <SidebarMenu title="Airbnb-Clone" description="AirbnbClone" />
         <SidebarMenu title="Kakao-Clone" description="KaKaoClone" />
+
       </div>
     </div>
   );
