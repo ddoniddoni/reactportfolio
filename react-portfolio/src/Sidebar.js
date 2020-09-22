@@ -3,32 +3,16 @@ import "./Sidebar.css";
 import { Avatar, IconButton } from "@material-ui/core";
 import Mail from "@material-ui/icons/Mail";
 import SidebarMenu from "./SidebarMenu";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
-
-  const menu={
-    netflex:{
-      title:"Netflex-Clone",
-      description:"Use React and Firebase"
-    },
-    Tinder:{
-      title:"Tinder-Clone",
-      description:"TinderClone"
-    },
-    Airbnb:{
-      title:"Airbnb-Clone",
-      description:"Airbnb"
-    },
-    Kakao:{
-      title:"Kakao-Clone",
-      description:"Kakao"
-    }
-  }
-
   return (
     <div className="sidebar">
       <div className="sidebar__header">
-        <Avatar src="https://avatars2.githubusercontent.com/u/33341413?s=460&u=7f26c34ba6d2bc1b40c2fa5c6193411fe1723874&v=4" />
+        <Link to="/">
+          <Avatar src="https://avatars2.githubusercontent.com/u/33341413?s=460&u=7f26c34ba6d2bc1b40c2fa5c6193411fe1723874&v=4" />
+        </Link>
+
         <div className="sidebar__headerRight">
           <h3>Sangdon's Portfolio</h3>
           <IconButton>
@@ -44,18 +28,34 @@ const Sidebar = () => {
       </div>
 
       <div className="sidebar__menus">
-        <SidebarMenu
-          title={menu.netflex.title}
-          description="Use React and Firebase"
-          
-        />
-        <SidebarMenu
-          title="Tinder-Clone"
-          description="TinderClone"
-        ></SidebarMenu>
-        <SidebarMenu title="Airbnb-Clone" description="AirbnbClone" />
-        <SidebarMenu title="Kakao-Clone" description="KaKaoClone" />
-
+        <Link to="/netflix">
+          <SidebarMenu
+            title="Netflix"
+            description="Use React and Firebase"
+            route="netflix"
+          />
+        </Link>
+        <Link to="/tinder">
+          <SidebarMenu
+            title="Tinder"
+            description="Use React and Firebase"
+            route="tinder"
+          />
+        </Link>
+        <Link to="./airbnb">
+          <SidebarMenu
+            title="Airbnb"
+            description="Use React and Firebase"
+            route="airbnb"
+          />
+        </Link>
+        <Link to="./kakao">
+          <SidebarMenu
+            title="Kakao"
+            description="Use React and Firebase"
+            route="kakao"
+          />
+        </Link>
       </div>
     </div>
   );
