@@ -8,7 +8,7 @@
   padding: 20px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid white;
 }
 
 .screen__headerInfo {
@@ -26,9 +26,8 @@
 }
 
 .screen__body {
+  background-color: #cadbe9;
   overflow: scroll;
   flex: 1;
-  align-items: center;
   display: flex;
-  justify-content: center;
 }

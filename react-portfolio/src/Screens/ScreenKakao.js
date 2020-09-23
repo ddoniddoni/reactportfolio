@@ -9,8 +9,8 @@ const ScreenKakao = () => {
     <div className="screen">
       <div className="screen__header">
         <div className="screen__headerInfo">
-          <h3>Kakao</h3>
-          <p>This is Kakao</p>
+          <h3>Kakao-Clone</h3>
+          <p>Html과 Css를 이용한 Kakaotalk</p>
         </div>
 
         <div className="screen__headerRight">

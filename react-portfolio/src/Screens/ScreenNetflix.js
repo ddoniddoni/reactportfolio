@@ -9,8 +9,8 @@ const ScreenNetflix = () => {
     <div className="screen">
       <div className="screen__header">
         <div className="screen__headerInfo">
-          <h3>Netflix</h3>
-          <p>This is Netflix</p>
+          <h3>Netflix-Clone</h3>
+          <p>React를 이용한 Netflix UI</p>
         </div>
 
         <div className="screen__headerRight">

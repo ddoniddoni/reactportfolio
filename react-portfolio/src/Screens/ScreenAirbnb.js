@@ -9,8 +9,8 @@ const ScreenAirbnb = () => {
     <div className="screen">
       <div className="screen__header">
         <div className="screen__headerInfo">
-          <h3>Airbnb</h3>
-          <p>This is Airbnb</p>
+          <h3>Airbnb-Clone</h3>
+          <p>React를 이용한 Airbnb UI</p>
         </div>
 
         <div className="screen__headerRight">

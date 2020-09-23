@@ -1,4 +1,18 @@
+.screenView {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.screenView__header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #cadbe9;
+}
+
 .screenView__image {
   max-width: 100px;
   height: 100px;
+  border-radius: 50px;
 }

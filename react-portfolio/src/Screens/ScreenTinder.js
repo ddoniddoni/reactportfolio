@@ -9,8 +9,8 @@ const ScreenTinder = () => {
     <div className="screen">
       <div className="screen__header">
         <div className="screen__headerInfo">
-          <h3>Tinder</h3>
-          <p>This is Tinder</p>
+          <h3>Tinder-Clone</h3>
+          <p>React를 이용한 Tinder UI</p>
         </div>
 
         <div className="screen__headerRight">
