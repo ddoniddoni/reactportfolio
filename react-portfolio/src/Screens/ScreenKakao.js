@@ -24,6 +24,7 @@ const ScreenKakao = () => {
         <ScreenView
           src="https://t1.kakaocdn.net/kakaocorp/corp_thumbnail/Kakao.png"
           alt="profile"
+          title="Kakaotalk"
         />
       </div>
     </div>

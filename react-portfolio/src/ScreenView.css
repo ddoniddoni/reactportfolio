@@ -1,18 +1,28 @@
 .screenView {
   display: flex;
-  flex: 1;
   flex-direction: column;
 }
 
 .screenView__header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 20px;
   background-color: #cadbe9;
+  border-bottom: 2px solid white;
 }
 
 .screenView__image {
-  max-width: 100px;
-  height: 100px;
+  max-width: 80px;
+  height: 80px;
   border-radius: 50px;
+  left: auto;
+}
+.screenView__title {
+  color: black;
+  font-weight: 600;
+  font-size: 40px;
+}
+.screenView__header .MuiIconButton-root {
+  color: #ffffff;
 }
