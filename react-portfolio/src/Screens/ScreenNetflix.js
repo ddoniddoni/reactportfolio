@@ -28,7 +28,11 @@ const ScreenNetflix = () => {
           title="Netflix"
           href="https://netflix-clone-6d682.web.app"
         />
-        <ScreensDes />
+        <ScreensDes
+          desOne="TMDB(TheMovieDB)에서 영화정보 가져오기"
+          desTwo="FireBase를 이용한 Hosting"
+          desThree="React를 이용한 UI 구현"
+        />
       </div>
     </div>
   );

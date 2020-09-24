@@ -3,6 +3,7 @@ import "../Screen.css";
 import MoreVert from "@material-ui/icons/MoreVert";
 import { IconButton } from "@material-ui/core";
 import ScreenView from "../ScreenView";
+import ScreensDes from "../ScreenDes";
 
 const ScreenTinder = () => {
   return (
@@ -26,6 +27,12 @@ const ScreenTinder = () => {
           alt="profile"
           title="Tinder"
           href="https://tinder-clone-7aefc.web.app"
+        />
+        <ScreensDes
+          desOne="FireBase를 이용한 Hosting"
+          desTwo="React를 이용한 UI 구현"
+          desThree="react-router-dom를 이용한 Page이동"
+          desFour="chat message 보내기 UI 추가"
         />
       </div>
     </div>

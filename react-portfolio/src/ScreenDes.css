@@ -1,4 +1,21 @@
 .screenDes {
   display: flex;
   flex: 1;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.screenDes > h3 {
+  font-size: 30px;
+}
+
+.screenDes__list {
+  text-indent: 10px;
+  list-style: none;
+}
+
+.screenDes__list > li {
+  font-size: 25px;
+  margin-top: 15px;
+  font-weight: 500;
 }

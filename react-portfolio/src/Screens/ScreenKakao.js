@@ -3,6 +3,7 @@ import "../Screen.css";
 import MoreVert from "@material-ui/icons/MoreVert";
 import { IconButton } from "@material-ui/core";
 import ScreenView from "../ScreenView";
+import ScreensDes from "../ScreenDes";
 
 const ScreenKakao = () => {
   return (
@@ -26,6 +27,10 @@ const ScreenKakao = () => {
           alt="profile"
           title="Kakaotalk"
           href="https://ddoniddoni.github.io/kakao-clone-v2/"
+        />
+        <ScreensDes
+          desOne="Only Use Html and Css"
+          desTwo="일정 사이즈에 맞춰야만 UI 노출"
         />
       </div>
     </div>

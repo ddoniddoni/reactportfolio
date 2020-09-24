@@ -29,32 +29,16 @@ const Sidebar = () => {
 
       <div className="sidebar__menus">
         <Link to="/netflix">
-          <SidebarMenu
-            title="Netflix"
-            description="Use React and Firebase"
-            route="netflix"
-          />
+          <SidebarMenu title="Netflix" route="netflix" />
         </Link>
         <Link to="/tinder">
-          <SidebarMenu
-            title="Tinder"
-            description="Use React and Firebase"
-            route="tinder"
-          />
+          <SidebarMenu title="Tinder" route="tinder" />
         </Link>
         <Link to="./airbnb">
-          <SidebarMenu
-            title="Airbnb"
-            description="Use React and Firebase"
-            route="airbnb"
-          />
+          <SidebarMenu title="Airbnb" route="airbnb" />
         </Link>
         <Link to="./kakao">
-          <SidebarMenu
-            title="Kakao"
-            description="Use React and Firebase"
-            route="kakao"
-          />
+          <SidebarMenu title="Kakao" route="kakao" />
         </Link>
       </div>
     </div>

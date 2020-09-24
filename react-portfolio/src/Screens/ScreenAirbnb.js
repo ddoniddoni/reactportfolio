@@ -3,6 +3,7 @@ import "../Screen.css";
 import MoreVert from "@material-ui/icons/MoreVert";
 import { IconButton } from "@material-ui/core";
 import ScreenView from "../ScreenView";
+import ScreensDes from "../ScreenDes";
 
 const ScreenAirbnb = () => {
   return (
@@ -26,6 +27,12 @@ const ScreenAirbnb = () => {
           alt="profile"
           title="Airbnb"
           href="https://airbnb-clone-a2620.web.app"
+        />
+        <ScreensDes
+          desOne="MaterialUI, ReactRouter사용"
+          desTwo="React Date Picker를 이용한 달력 표시"
+          desThree="반응형 디자인"
+          desFour="Firebase를 이용한 호스팅"
         />
       </div>
     </div>

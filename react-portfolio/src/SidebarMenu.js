@@ -6,7 +6,6 @@ const SidebarMenu = ({ title, description }) => {
     <div className="sidebarMenu">
       <div className="sidebarMenu__info">
         <h2>{title}</h2>
-        <p>{description}</p>
       </div>
     </div>
   );
