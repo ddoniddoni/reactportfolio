@@ -1,0 +1,53 @@
+.screenMyDes {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.screenMyDes__text {
+  padding: 10px;
+}
+.screenMyDes__top {
+  display: flex;
+}
+
+.screenMyDes__list {
+  list-style: none;
+  color: #000000;
+  font-weight: 500;
+}
+
+.screenMyDes__list > li {
+  text-indent: 20px;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.screenMyDes__list > h2:nth-last-child(1) {
+  margin-top: 10px;
+}
+
+.screenMyDes__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.screenMyDes__bottom:nth-last-child(1) {
+  margin-top: 30px;
+}
+
+.screenMyDes__bottom > img {
+  width: 100px;
+  height: 100px;
+  padding-top: 0px;
+  object-fit: contain;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.screenMyDes__bottom > img:hover {
+  transform: scale(1.3);
+  transition: transform 0.8s;
+}

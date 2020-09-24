@@ -2,6 +2,7 @@ import React from "react";
 import "./Screen.css";
 import MoreVert from "@material-ui/icons/MoreVert";
 import { IconButton } from "@material-ui/core";
+import ScreenMyDes from "./ScreenMyDes";
 
 const Screen = () => {
   return (
@@ -20,7 +21,7 @@ const Screen = () => {
       </div>
 
       <div className="screen__body">
-        <h3>내 설명</h3>
+        <ScreenMyDes />
       </div>
     </div>
   );
