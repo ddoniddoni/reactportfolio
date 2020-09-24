@@ -25,6 +25,7 @@ const ScreenKakao = () => {
           src="https://t1.kakaocdn.net/kakaocorp/corp_thumbnail/Kakao.png"
           alt="profile"
           title="Kakaotalk"
+          href="https://ddoniddoni.github.io/kakao-clone-v2/"
         />
       </div>
     </div>

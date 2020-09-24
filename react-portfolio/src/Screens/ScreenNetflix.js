@@ -26,6 +26,7 @@ const ScreenNetflix = () => {
           src="https://pmcvariety.files.wordpress.com/2020/05/netflix-logo.png?w=1024"
           alt="profile"
           title="Netflix"
+          href="https://netflix-clone-6d682.web.app"
         />
         <ScreensDes />
       </div>

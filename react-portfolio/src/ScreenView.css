@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
 }
-
 .screenView__header {
   display: flex;
   align-items: center;
@@ -11,12 +10,10 @@
   background-color: #cadbe9;
   border-bottom: 2px solid white;
 }
-
 .screenView__image {
   max-width: 80px;
   height: 80px;
   border-radius: 50px;
-  left: auto;
 }
 .screenView__title {
   color: black;
