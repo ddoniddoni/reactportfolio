@@ -7,6 +7,7 @@ import ScreenTinder from "./Screens/ScreenTinder";
 import ScreenNetflix from "./Screens/ScreenNetflix";
 import ScreenAirbnb from "./Screens/ScreenAirbnb";
 import ScreenKakao from "./Screens/ScreenKakao";
+import ScreenWord from "./Screens/ScreenWord";
 
 function App() {
   return (
@@ -14,6 +15,10 @@ function App() {
       <div className="app__body">
         <Router>
           <Switch>
+            <Route path="/wordrelay">
+              <Sidebar />
+              <ScreenWord />
+            </Route>
             <Route path="/kakao">
               <Sidebar />
               <ScreenKakao />

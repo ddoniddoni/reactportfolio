@@ -40,6 +40,9 @@ const Sidebar = () => {
         <Link to="./kakao">
           <SidebarMenu title="Kakao" route="kakao" />
         </Link>
+        <Link to="/wordrelay">
+          <SidebarMenu title="WordRelay" route="wordrelay" />
+        </Link>
       </div>
     </div>
   );
