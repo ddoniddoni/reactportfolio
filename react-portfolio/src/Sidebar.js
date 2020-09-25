@@ -43,6 +43,9 @@ const Sidebar = () => {
         <Link to="/wordrelay">
           <SidebarMenu title="WordRelay" route="wordrelay" />
         </Link>
+        <Link to="/lotto">
+          <SidebarMenu title="Lotto" route="lotto" />
+        </Link>
       </div>
     </div>
   );

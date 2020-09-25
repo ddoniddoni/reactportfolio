@@ -8,6 +8,7 @@ import ScreenNetflix from "./Screens/ScreenNetflix";
 import ScreenAirbnb from "./Screens/ScreenAirbnb";
 import ScreenKakao from "./Screens/ScreenKakao";
 import ScreenWord from "./Screens/ScreenWord";
+import ScreenLotto from "./Screens/ScreenLotto";
 
 function App() {
   return (
@@ -15,6 +16,10 @@ function App() {
       <div className="app__body">
         <Router>
           <Switch>
+            <Route path="/lotto">
+              <Sidebar />
+              <ScreenLotto />
+            </Route>
             <Route path="/wordrelay">
               <Sidebar />
               <ScreenWord />
