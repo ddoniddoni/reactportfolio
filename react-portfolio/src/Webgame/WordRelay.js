@@ -25,21 +25,21 @@ const WordRelay = () => {
     setValue(e.target.value);
   };
   return (
-    <div className="wordRelay">
-      <div>{word}</div>
-      <form onSubmit={onSubmetForm}>
-        <label id="label" htmlFor="wordInput">
-          글자를 입력해주세요
-        </label>
-        <input
-          id="wordInput"
-          ref={inputRef}
-          value={value}
-          onChange={onChangeInput}
-        />
-        <button>다음</button>
-      </form>
-      <div>{result}</div>
+    <div className="wordrelay">
+      <div className="wordrelay__name">제시어 : {word}</div>
+      <div className="wordrelay__formContainer">
+        <form className="wordrelay__form" onSubmit={onSubmetForm}>
+          <label className="wordrelay__label">글자를 입력해주세요</label>
+          <input
+            className="wordrelay__input"
+            ref={inputRef}
+            value={value}
+            onChange={onChangeInput}
+          />
+          <button className="wordrelay__btn">Enter</button>
+        </form>
+      </div>
+      <div className="wordrelay__result">{result}</div>
     </div>
   );
 };
