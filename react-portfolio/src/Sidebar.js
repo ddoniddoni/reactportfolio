@@ -15,7 +15,7 @@ const Sidebar = () => {
 
         <div className="sidebar__headerRight">
           <h3>Sangdon's Portfolio</h3>
-          <IconButton>
+          <IconButton a href="mailto:psdkei@naver.com">
             <Mail />
           </IconButton>
         </div>
