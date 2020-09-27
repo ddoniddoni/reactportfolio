@@ -7,7 +7,9 @@ const ScreenView = ({ src, alt, title, href }) => {
   return (
     <div className="screenView">
       <div className="screenView__header">
-        <img className="screenView__image" src={src} alt={alt} />
+        <IconButton href={href} target="_blank">
+          <img className="screenView__image" src={src} alt={alt} />
+        </IconButton>
         <div className="screenView__title">{title}</div>
         <IconButton>
           <a href={href} target="_blank" rel="noopener noreferrer">
